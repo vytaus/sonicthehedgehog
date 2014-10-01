@@ -11,11 +11,9 @@
   background-color: rgba(0,0,0,0.3) !important;
 }
 
-@media (min-width: 768px) {
-    .container {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
+.container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .car-img {
