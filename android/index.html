@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <!-- Bootstrap -->
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="../StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../">Brandas</a>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="../about/">Apie</a></li>
+                <li class="active"><a href="../android/">inPocket</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="row" style="margin:0 auto;">
+            <div class="col-md-12" align="center">
+                <h1>inPocket android RSS reader</h1>
+            </div>
+        </div>
+
+        <!-- main slider carousel -->
+        <div class="row">
+            <div class="col-md-6" id="slider">
+
+                <div class="col-md-12" id="carousel-bounding-box">
+                    <div id="myCarousel" class="carousel slide" style="width: 332px; margin: 0 auto;">
+                        <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item" data-slide-number="0">
+                                <img src="carousel/frame1.png" class="car-img img-responsive" >
+                                <div class="carousel-caption">
+                                    <h5>welcome screen</h5>
+                                </div>
+                            </div>
+                            <div class="item" data-slide-number="1">
+                                <img src="carousel/frame2.png" class="car-img img-responsive">
+                                <div class="carousel-caption">
+                                    <h5>main screen</h5>
+                                </div>
+                            </div>
+                            <div class="item" data-slide-number="2">
+                                <img src="carousel/frame3.png" class="car-img img-responsive">
+                                <div class="carousel-caption">
+                                    <h5>grayed out - already read</h5>
+                                </div>
+                            </div>
+                            <div class="item" data-slide-number="3">
+                                <img src="carousel/frame4.png" class="car-img img-responsive">
+                                <div class="carousel-caption">
+                                    <h5>feeds - all feature</h5>
+                                </div>
+                            </div>
+                            <div class="item" data-slide-number="4">
+                                <img src="carousel/frame5.png" class="car-img img-responsive">
+                                <div class="carousel-caption">
+                                    <h5>only chosen feed feature</h5>
+                                </div>
+                            </div>
+                            <div class="item" data-slide-number="5">
+                                <img src="carousel/frame6.png" class="car-img img-responsive">
+                                <div class="carousel-caption">
+                                    <h5>remove feed feature</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- main slider carousel nav controls --> 
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- thumb navigation carousel -->
+            <div class="col-md-6 hidden-sm hidden-xs" id="slider-thumbs">
+
+                <!-- thumb navigation carousel items -->
+                <ul class="list-inline">
+                    <li>
+                        <a id="carousel-selector-0" class="selected">
+                            <img src="carousel/frame1.png" class="car-thumb img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="carousel-selector-1">
+                            <img src="carousel/frame2.png" class="car-thumb img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="carousel-selector-2">
+                            <img src="carousel/frame3.png" class="car-thumb img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="carousel-selector-3">
+                            <img src="carousel/frame4.png" class="car-thumb img-responsive" >
+                        </a>
+                    </li>
+                    <li>
+                        <a id="carousel-selector-4">
+                            <img src="carousel/frame5.png" class="car-thumb img-responsive">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="carousel-selector-5">
+                            <img src="carousel/frame6.png" class="car-thumb img-responsive">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <!--/main slider carousel-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <p align="justify">
+                    <b>inPocket</b> - android RSS skaitytuvas. Tai patogus ir nesudėtingas RSS skaitytuvas, kuris leis vartotojui lengvai valdyti savo RSS prenumeratas. 
+                    Dauguma naujienų puslapių bei blogų teikia vartotojui galimybę užsisakytį jų prenumeratas, naudojantis RSS (Rich Site Summary). Ši programėlė leis vartotojui prenumeruoti savo mėgstamų naujienų puslapių 
+                    ar blogų naujienas tiesiai į telofoną. Vartotojui tereikės programėlėje pridėti naują RSS 'feed' įvedant norimo prenumeruoti puslapio RSS paslaugos adresą.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../Scripts/jquery-1.9.1.js"></script>
+
+    <script src="../Scripts/bootstrap.js"></script>
+
+    <script src="JavaScript.js"></script>
+
+</body>
+</html>
