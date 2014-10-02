@@ -16,6 +16,29 @@
     height: auto;
 }
 .car-thumb {
-    width: 105px;
+    width: 104px;
     height: auto;
+}
+
+@media (min-width: 768px) {
+    .carousel.slide {
+        width: 332px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 15pt;
+    }
+
+    .carousel.slide {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .car-img {
+        width: 200px;
+        height: auto;
+    }
 }

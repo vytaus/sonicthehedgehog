@@ -7118,7 +7118,3 @@ td.visible-print {
     display: none !important;
   }
 }
-
-.selected img {
-	opacity:0.5;
-}
